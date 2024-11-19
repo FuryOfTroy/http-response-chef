@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "parent_path": null
+    },
+    "recipe": {
+        "version": "HTTP/1.1",
+        "code": 200,
+        "reason": null,
+        "headers": {
+            "Content-Type": "text/html; charset=utf-8"
+        },
+        "body": {
+            "body_string": null,
+            "body_relative_file_path": "utf-8_body"
+        },
+        "options": {
+            "auto_content_length": true
+        }
+    }
+}

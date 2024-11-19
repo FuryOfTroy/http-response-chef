@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "parent_path": null
+    },
+    "recipe": {
+        "version": "HTTP/1.1",
+        "code": 404,
+        "reason": null,
+        "headers": {
+            "Content-Type": "text/json"
+        },
+        "body": {
+            "body_string": "{\"error\":\"Page could not be found\"}",
+            "body_relative_file_path": null
+        },
+        "options": {
+            "auto_content_length": true
+        }
+    }
+}

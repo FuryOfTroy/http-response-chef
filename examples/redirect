@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "parent_path": null
+    },
+    "recipe": {
+        "version": "HTTP/1.1",
+        "code": 301,
+        "reason": null,
+        "headers": {
+            "Content-Type": "text/plain",
+            "Location": "/examples/example"
+        },
+        "body": {
+            "body_string": "Redirecting...",
+            "body_relative_file_path": null
+        },
+        "options": {
+            "auto_content_length": true
+        }
+    }
+}

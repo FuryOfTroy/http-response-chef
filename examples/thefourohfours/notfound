@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "parent_path": null
+    },
+    "recipe": {
+        "version": "HTTP/1.1",
+        "code": 404,
+        "reason": null,
+        "headers": {
+            "Content-Type": "text/html"
+        },
+        "body": {
+            "body_string": null,
+            "body_relative_file_path": "notfound_body"
+        },
+        "options": {
+            "auto_content_length": true
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "parent_path": null
+    },
+    "recipe": {
+        "version": "HTTP/1.1",
+        "code": 200,
+        "reason": "OK",
+        "headers": {
+            "Content-Type": "text/plain"
+        },
+        "body": {
+            "body_string": "All good",
+            "body_relative_file_path": null
+        },
+        "options": {
+            "auto_content_length": true,
+            "match_and_replace_rules": 
+            [
+                {
+                    "request_match_regex": "\\?test=[^& ]*'[^& ]*[& ]",
+                    "response_replacement_regex": "All good",
+                    "replace_value": "<h2>Could not find file</h2>"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Example</h2>
+
+<form action="/example2">
+  <label for="test">Test:</label><br>
+  <input type="text" id="test" name="test" value="Test"><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
